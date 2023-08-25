@@ -13,7 +13,7 @@ return h.make_builtin({
     filetypes = { "sql" },
     generator_opts = {
         command = "sql-formatter",
-        args = {-}
+        args = {-},
         to_stdin = true,
     },
     factory = h.formatter_factory,
